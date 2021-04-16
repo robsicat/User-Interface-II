@@ -49,13 +49,12 @@ table {
 
 /* CSS styling starts below */
 body {
-	background-color: #231015;
 	color: white;
 }
 
-.mainContainer {
-	max-width: 80%;
-	margin: 4% auto;
+.topSection {
+	background-color: #231015;
+	padding: 4% 8%;
 }
 
 header img {
@@ -83,6 +82,7 @@ ul {
 nav, a {
 	margin: 4% 0;
 	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 600;
 	font-size: 24px;
 	text-decoration: none;
 	padding-right: 40px;
@@ -91,6 +91,50 @@ nav, a {
 
 nav, a:hover {
 	color: #6BDBB2;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.headShot {
+	width: 360px;
+	margin-top: 2%;
+}
+
+.flexText {
+	width: 540px;
+	font-size: 20px;
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	margin-right: 24%;
+}
+
+.flexText p {
+	line-height: 32px;
+	margin-bottom: 16px;
+}
+
+.gallery {
+	background-color: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.galleryItem {
+	width: 300px;
+	padding: 32px;
+}
+
+.row1 {
+	margin: 4% 0% 2% 0%;
+}
+
+.row2 {
+	margin: 2% 0% 4% 0%;
 }
 
 
