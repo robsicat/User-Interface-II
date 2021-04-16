@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&family=Spectral:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&family=Spectral:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
     <title>Rob Sicat | Product. Design. Code.</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
                 <nav>
                     <ul>
                         <li class="nav"><a href="#">Home</a></li>
-                        <li class="nav"><a href="#">About</a></li>
-                        <li class="nav"><a href="#">Contact</a></li>
-                        <li class="nav"><a href="#">Projects</a></li>
+                        <li class="nav"><a href="about.html">About</a></li>
+                        <li class="nav"><a href="contact.html">Contact</a></li>
+                        <li class="nav"><a href="projects.html">Projects</a></li>
                     </ul>
                 </nav>
             </header>
@@ -37,27 +38,56 @@
                     <p>I pride myself on being a self-taught and use my eclectic background to create better products, inspire my team, and tell stories.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
         <section class="gallery">
+            <h2>Writing, thoughts &amp mixes</h2>
             <div class="row1">
-                <img class="galleryItem" src="/assets/gallery-img-1.png" alt="image of geometric shape #1" />
-                <img class="galleryItem" src="/assets/gallery-img-2.png" alt="image of geometric shape #2" />
-                <img class="galleryItem" src="/assets/gallery-img-3.png" alt="image of geometric shape #3" />
-                <img class="galleryItem" src="/assets/gallery-img-4.png" alt="image of geometric shape #4" />
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-1.png" alt="image of geometric shape #1" />
+                    <p>Title</p>
+                </div>
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-2.png" alt="image of geometric shape #2" />
+                    <p>Title</p>
+                </div>
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-3.png" alt="image of geometric shape #3" />
+                    <p>Title</p>
+                </div>
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-4.png" alt="image of geometric shape #4" />
+                    <p>Title</p>
+                </div>
             </div>
             <div class="row2">
-                <img class="galleryItem" src="/assets/gallery-img-5.png" alt="image of geometric shape #5" />
-                <img class="galleryItem" src="/assets/gallery-img-6.png" alt="image of geometric shape #6" />
-                <img class="galleryItem" src="/assets/gallery-img-7.png" alt="image of geometric shape #7" />
-                <img class="galleryItem" src="/assets/gallery-img-8.png" alt="image of geometric shape #8" />
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-5.png" alt="image of geometric shape #5" />
+                    <p>Title</p>
+                </div>
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-6.png" alt="image of geometric shape #6" />
+                    <p>Title</p>
+                </div>
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-7.png" alt="image of geometric shape #7" />
+                    <p>Title</p>
+                </div>
+                <div class="item">
+                    <img class="galleryItem" src="/assets/gallery-img-8.png" alt="image of geometric shape #8" />
+                    <p>Title</p>
+                </div>
             </div>
         </section>
 
         <footer>
-            <p>I'm a product manager who likes to design, dj, cook, and code.</p>
+            <p>I'm a product manager who likes to design, dj, cook &amp; code.</p>
             <p>Please reach out if you are interested in working together.</p>
-            <button type="button">Contact me</button>
+            <button onclick="document.location='contact.html'">Contact me</button>
+            <div class="socialLinks">
+                <a href="https://twitter.com/robsicat" class="fa fa-linkedin fa-7x"></a>
+                <a href="https://www.linkedin.com/in/robsicat/" class="fa fa-twitter fa-7x"></a>
+            </div>
         </footer>
     </div>
 </body>
