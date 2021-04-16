@@ -48,3 +48,50 @@ table {
 }
 
 /* CSS styling starts below */
+body {
+	background-color: #231015;
+	color: white;
+}
+
+.mainContainer {
+	max-width: 80%;
+	margin: 4% auto;
+}
+
+header img {
+	height: 40px;
+}
+
+.logoHeader {
+	display: flex;
+	align-items: center;
+}
+
+.logoHeader img {
+	padding-right: 2%;
+}
+
+h1 {
+	font-family: 'Spectral', serif;
+	font-size: 48px;
+}
+
+ul {
+	display: flex;
+}
+
+nav, a {
+	margin: 4% 0;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	padding-right: 40px;
+	color: white;
+}
+
+nav, a:hover {
+	color: #6BDBB2;
+}
+
+
+
