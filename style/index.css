@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -48,17 +49,25 @@ table {
 }
 
 /* CSS styling starts below */
+
+* {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+	
+
 body {
-	color: white;
+	color: white
+	
 }
 
 .topSection {
 	background-color: #231015;
 	padding: 4% 8%;
-}
-
-header img {
-	height: 40px;
 }
 
 .logoHeader {
@@ -67,12 +76,13 @@ header img {
 }
 
 .logoHeader img {
+	width: 5.5%;
 	padding-right: 2%;
 }
 
 h1 {
 	font-family: 'Spectral', serif;
-	font-size: 48px;
+	font-size: 4.8rem;
 	transition: color 0.3s ease;
 }
 
@@ -90,7 +100,6 @@ nav, a {
 	font-weight: 600;
 	font-size: 24px;
 	text-decoration: none;
-	padding-right: 40px;
 	color: white;
 }
 
@@ -103,13 +112,13 @@ nav, a:hover {
 }
 
 .headShot {
-	width: 360px;
-	margin-right: 64px;
+	width: 50%;
+	margin-right: 2%;
 	margin-top: 2%;
 }
 
 .flexText {
-	width: 540px;
+	width: 60%;
 	font-size: 20px;
 	font-family: 'Space Grotesk', sans-serif;
 	font-weight: 300;
@@ -133,7 +142,7 @@ h2{
 }
 
 .galleryItem {
-	width: 220px;
+	width: 30%;
 	padding: 32px;
 }
 
@@ -214,4 +223,38 @@ button:hover {
 .fa-linkedin {
 	color: white;
 	padding-right: 24px;
+}
+
+
+@media (max-width: 500px) {
+
+	.topSection {
+		padding: 4% 0%;
+	}
+
+	nav a {
+		margin: 2% 0;
+
+	}
+
+	ul {
+		flex-direction: column;
+	}
+	li {
+		text-align: center;
+		padding: 4% 0;
+		width: 100%;
+	}
+	li:nth-child(1) {
+		background-color: #33181F;
+	}
+	li:nth-child(2) {
+		background-color: #3B1C25;
+	}
+	li:nth-child(3) {
+		background-color: #401E27;
+	}
+	li:nth-child(4) {
+		background-color: #44202A;
+	}
 }
